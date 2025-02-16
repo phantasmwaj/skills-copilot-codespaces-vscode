@@ -1,7 +1,6 @@
 // Create web server
 
 // Create a web server that listens on port 3000 and serves the comment.html file
-
 // Load the http module
 var http = require('http');
 var fs = require('fs');
@@ -24,4 +23,4 @@ http.createServer(function (req, res) {
 
 }).listen(3000);
 
-console.log('Server running at http://localhost:3000/');
+console.log('Server now running at http://localhost:3000/');
