@@ -10,3 +10,9 @@ function addNumbers(numbers) {
 }
 
 console.log(addNumbers(numbers));
+
+
+function subtractNumbers(numbers) {
+  return numbers.reduce((total, number) => total - number, 0);
+}
+
