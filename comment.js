@@ -20,4 +20,8 @@ function multiplyNumbers(numbers) {
     return numbers.reduce((total, number) => total * number, 1);
 }
 
+function divideNumbers(numbers) {
+    return numbers.reduce((total, number) => total / number, 1);
+}
+
 
