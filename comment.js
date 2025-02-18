@@ -16,3 +16,8 @@ function subtractNumbers(numbers) {
   return numbers.reduce((total, number) => total - number, 0);
 }
 
+function multiplyNumbers(numbers) {
+    return numbers.reduce((total, number) => total * number, 1);
+}
+
+
